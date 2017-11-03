@@ -1,6 +1,6 @@
 {
-  "name": "react-leaflet-control",
-  "version": "1.4.0",
+  "name": "react-leaflet-control-minify",
+  "version": "1.5.1",
   "description": "Dumb Empty Component for control with react leaflet",
   "main": "dist/control.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "map",
     "mapbox"
   ],
-  "author": "Joel <joel@liveby.co>",
+  "author": "Joel <joel@liveby.co>, PascalHelbig <pascalhelbig@gmail.com>",
   "license": "ISC",
   "peerDependencies": {
     "leaflet": "^0.7.7 || ^1.0.2",
