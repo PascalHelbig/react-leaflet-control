@@ -10,7 +10,9 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _react = require('react');
 
-var _reactLeaflet = require('react-leaflet');
+var _MapControl2 = require('react-leaflet/lib/MapControl');
+
+var _MapControl3 = _interopRequireDefault(_MapControl2);
 
 var _propTypes = require('prop-types');
 
@@ -85,10 +87,10 @@ var Control = function (_MapControl) {
   }]);
 
   return Control;
-}(_reactLeaflet.MapControl);
+}(_MapControl3.default);
 
-Control.contextTypes = _reactLeaflet.MapControl.contextTypes;
-Control.childContextTypes = _reactLeaflet.MapControl.childContextTypes;
+Control.contextTypes = _MapControl3.default.contextTypes;
+Control.childContextTypes = _MapControl3.default.childContextTypes;
 Control.propTypes = {
   children: _propTypes2.default.node,
   map: _propTypes2.default.instanceOf(_leaflet.Map),

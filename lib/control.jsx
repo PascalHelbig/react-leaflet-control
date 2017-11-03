@@ -1,5 +1,5 @@
 import { Component, Children } from 'react';
-import { MapControl } from 'react-leaflet';
+import MapControl from 'react-leaflet/lib/MapControl';
 import PropTypes from 'prop-types';
 import { Map } from 'leaflet';
 import Dumb from './Control.Dumb';
