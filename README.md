@@ -1,15 +1,15 @@
-#react-leaflet-control
+# react-leaflet-control-minify
 
 A [React-Leaflet](https://github.com/PaulLeCam/react-leaflet) component that renders React elements in leaflet's control pane.
 
 
-##installation
-`npm install react-leaflet-control`
+## installation
+`npm install react-leaflet-control-minify`
 
-##Options
+## Options
 `position`: Which pane to mount to. Options are `topleft`, `topright`, `bottomleft`, `bottomright`
 
-##Usage
+## Usage
 ```jsx
 import React, { Component } from 'react';
 import Control from 'react-leaflet-control';
