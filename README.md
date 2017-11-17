@@ -1,5 +1,7 @@
 # react-leaflet-control-minify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/PascalHelbig/react-leaflet-control.svg)](https://greenkeeper.io/)
+
 A [React-Leaflet](https://github.com/PaulLeCam/react-leaflet) component that renders React elements in leaflet's control pane.
 
 
