@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import toJSON from 'enzyme-to-json';
 import { Map } from 'react-leaflet';
-import Control from './control';
+import Control from '../dist/control';
 
 it('renders without errors', () => {
   const wrapper = mount(
